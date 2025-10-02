@@ -3,7 +3,7 @@ Site acadêmico desenvolvido por: Pedro Henrique Tavares(RM567680), David Gama (
 
 
 
-📂 Estrutura
+Estrutura
 
 index.html → página inicial com destaques e vídeo
 
@@ -19,7 +19,7 @@ contato.html → formulário de contato
 
 CSS em src/css/style.css e imagens em src/assets/imgs/.
 
-✅ Recursos
+Recursos
 
 Navegação entre páginas
 
@@ -33,10 +33,10 @@ Imagens e vídeo embutido (YouTube)
 
 Meta tags para SEO simples
 
-🚀 Como usar
+Como usar
 
 Basta abrir o arquivo index.html no navegador.
 
-👨‍💻 Créditos
+Créditos
 
 Projeto criado a partir do Caso da Vinheria Agnello e conteúdos das aulas de Front-end Design ministrada pelo professor Lucas Silva Borges de Sousa.
