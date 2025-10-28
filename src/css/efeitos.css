@@ -3,3 +3,8 @@
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(128, 0, 0, 0.2);
 } 
+/* 2. Focus nos campos do formulário */
+input:focus, textarea:focus {
+    outline: 2px solid #800000;
+    transform: scale(1.02);
+} 
