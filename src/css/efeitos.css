@@ -17,3 +17,9 @@ input:focus, textarea:focus {
 .tabela tbody tr:nth-child(even) {
     background-color: #fff;
 }
+/* 4. Hover nos itens da navegação */
+.site-nav a:hover {
+    color: #ffd700;
+    transform: scale(1.1);
+} 
+
