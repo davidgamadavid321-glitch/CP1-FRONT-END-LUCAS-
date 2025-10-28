@@ -127,3 +127,27 @@ footer {
   font-size: 2.5em;
   margin-bottom: 20px;
 }
+
+.btn {
+  display: inline-block;
+  background-color: #800000;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
