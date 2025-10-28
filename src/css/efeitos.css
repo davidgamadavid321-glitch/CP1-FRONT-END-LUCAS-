@@ -40,3 +40,20 @@ h1::before {
     background-color: #800000;
     color: white;
 }
+
+/* ========== ANIMAÇÕES ========== /
+
+/ Animação de pulsar para botões principais */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.btn {
+    animation: pulse 2s infinite;
+}
+
+.btn:hover {
+    animation: none;
+}
