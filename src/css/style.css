@@ -1,3 +1,6 @@
+/* === IMPORTAÇÃO DOS EFEITOS VISUAIS === */
+@import url('efeitos.css'); 
+
 /* === Reset simples === */
 body {
   font-family: Arial, sans-serif;
@@ -91,6 +94,7 @@ footer {
   padding: 10px;
   margin-top: 20px;
 }
+
 /* === ESTILOS ADICIONAIS PARA LAYOUT === */
 
 .container {
@@ -112,6 +116,7 @@ footer {
   font-weight: bold;
   font-size: 1.2em;
 }
+
 .hero {
   display: flex;
   align-items: center;
@@ -150,4 +155,32 @@ footer {
   padding: 20px;
   border-radius: 8px;
   border: 1px solid #ddd;
+}
+
+.link {
+  color: #800000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.video {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.video-wrapper {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.cta {
+  text-align: center;
+  background: #f0f0f0;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
 }
