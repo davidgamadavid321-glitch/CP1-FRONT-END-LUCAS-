@@ -8,3 +8,12 @@ input:focus, textarea:focus {
     outline: 2px solid #800000;
     transform: scale(1.02);
 } 
+
+/* 3. Nth-child para zebrar a tabela */
+.tabela tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.tabela tbody tr:nth-child(even) {
+    background-color: #fff;
+}
