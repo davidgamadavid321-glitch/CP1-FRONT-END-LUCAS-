@@ -27,3 +27,16 @@ input:focus, textarea:focus {
 #enviar:active {
     transform: scale(0.95);
 }
+
+/* ========== PSEUDO-ELEMENTOS ========== /
+
+/ 1. Decoração antes dos títulos principais */
+h1::before {
+    margin-right: 10px;
+}
+
+/* 2. Estilização da seleção de texto */
+::selection {
+    background-color: #800000;
+    color: white;
+}
