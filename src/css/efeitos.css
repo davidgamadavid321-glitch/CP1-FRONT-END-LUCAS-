@@ -1,13 +1,18 @@
+/* efeitos.css - Efeitos visuais avançados para Vinheria Agnello */
+
+/* ========== PSEUDO-CLASSES ========== */
+
 /* 1. Hover em cards */
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(128, 0, 0, 0.2);
-} 
+}
+
 /* 2. Focus nos campos do formulário */
 input:focus, textarea:focus {
     outline: 2px solid #800000;
     transform: scale(1.02);
-} 
+}
 
 /* 3. Nth-child para zebrar a tabela */
 .tabela tbody tr:nth-child(odd) {
@@ -17,20 +22,21 @@ input:focus, textarea:focus {
 .tabela tbody tr:nth-child(even) {
     background-color: #fff;
 }
+
 /* 4. Hover nos itens da navegação */
 .site-nav a:hover {
     color: #ffd700;
     transform: scale(1.1);
-} 
+}
 
 /* 5. Active no botão enviar */
 #enviar:active {
     transform: scale(0.95);
 }
 
-/* ========== PSEUDO-ELEMENTOS ========== /
+/* ========== PSEUDO-ELEMENTOS ========== */
 
-/ 1. Decoração antes dos títulos principais */
+/* 1. Decoração antes dos títulos principais */
 h1::before {
     margin-right: 10px;
 }
@@ -41,9 +47,9 @@ h1::before {
     color: white;
 }
 
-/* ========== ANIMAÇÕES ========== /
+/* ========== ANIMAÇÕES ========== */
 
-/ Animação de pulsar para botões principais */
+/* Animação de pulsar para botões principais */
 @keyframes pulse {
     0% { transform: scale(1); }
     50% { transform: scale(1.05); }
@@ -56,4 +62,30 @@ h1::before {
 
 .btn:hover {
     animation: none;
+}
+
+/* ========== TRANSFORMAÇÕES ========== */
+
+/* 1. Rotação na logo no hover */
+.logo:hover {
+    transform: rotate(10deg);
+    transition: transform 0.3s ease;
+}
+
+/* 2. Scale nas imagens dos produtos */
+.full:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+}
+
+/* ========== TRANSIÇÕES ========== */
+
+/* Transições suaves para elementos interativos */
+.card, .btn, .site-nav a, .logo, .full {
+    transition: all 0.3s ease;
+}
+
+/* Transição específica para botões */
+.btn {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
