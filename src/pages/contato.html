@@ -14,42 +14,90 @@
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="/index.html">
-      <img src="../assets/imgs/logo.png" width="100"alt="Logomarca Vinheria Agnello" class="logo">
+    <a class="brand" href="../../index.html">
+      <img src="../assets/imgs/logo.png" width="100" alt="Logomarca Vinheria Agnello" class="logo">
       <span>Vinheria Agnello</span>
     </a>
     <nav class="site-nav">
       <ul>
-        <li><a href="/index.html">Início</a></li>
-        <li><a href="/src/pages/historia.html">História</a></li>
-        <li><a href="/src/pages/produtos.html">Produtos</a></li>
-        <li><a href="/src/pages/armazenagem.html">Armazenagem</a></li>
-        <li><a href="/src/pages/equipe.html">Equipe</a></li>
-        <li><a href="/src/pages/contato.html">Contato</a></li>
+        <li><a href="../../index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="armazenagem.html">Armazenagem</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="contato.html">Contato</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
 <main class="container">
-  <section>
-    <h1>Contato</h1>
-    <p>Conte-nos sobre a ocasião e preferências. Retornaremos com recomendações.</p>
-    <form class="form" action="#" method="post">
-      <div class="form-group">
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
-      </div>
-      <div class="form-group">
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
-      </div>
-      <div class="form-group">
-        <label for="mensagem">Mensagem</label>
-        <textarea id="mensagem" name="mensagem" rows="6" placeholder="Descreva a ocasião, cardápio, preferências..."></textarea>
-      </div>
-      <button type="submit" class="btn" id="enviar">Enviar</button>
-    </form>
+  <section class="hero">
+    <div class="hero-text" style="width: 100%; text-align: center;">
+      <h1>Contato & Recomendações</h1>
+      <p>Conte-nos sobre a ocasião, suas preferências e o cardápio. Nossos especialistas retornarão com recomendações personalizadas.</p>
+    </div>
+  </section>
+
+  <section class="grid" style="grid-template-columns: 2fr 1fr; gap: 40px; align-items: start;">
+    <article>
+      <h2>Envie sua Consulta</h2>
+      <form class="form" action="#" method="post">
+        <div class="form-group">
+          <label for="nome">Nome Completo</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="telefone">Telefone</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999">
+        </div>
+        <div class="form-group">
+          <label for="ocasiao">Tipo de Ocasião</label>
+          <select id="ocasiao" name="ocasiao" required>
+            <option value="">Selecione uma opção</option>
+            <option value="jantar">Jantar Romântico</option>
+            <option value="familia">Almoço em Família</option>
+            <option value="amigos">Encontro com Amigos</option>
+            <option value="comemoração">Comemoração Especial</option>
+            <option value="presente">Presente</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="cardapio">Cardápio ou Preferências</label>
+          <textarea id="cardapio" name="cardapio" rows="4" placeholder="Descreva o cardápio ou suas preferências de vinho..."></textarea>
+        </div>
+        <div class="form-group">
+          <label for="orcamento">Faixa de Orçamento</label>
+          <input type="text" id="orcamento" name="orcamento" placeholder="Ex: R$ 50-100 por garrafa">
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem Adicional</label>
+          <textarea id="mensagem" name="mensagem" rows="6" placeholder="Alguma informação adicional que considere importante..."></textarea>
+        </div>
+        <button type="submit" class="btn" id="enviar">Solicitar Recomendação</button>
+      </form>
+    </article>
+
+    <aside class="card">
+      <h3>Atendimento Personalizado</h3>
+      <p><strong>Horário de Funcionamento:</strong><br>
+      Segunda a Sexta: 9h às 18h<br>
+      Sábado: 10h às 16h</p>
+      
+      <p><strong>Telefone:</strong><br>
+      (11) 3456-7890</p>
+      
+      <p><strong>E-mail:</strong><br>
+      consultoria@vinheriaagnello.com.br</p>
+      
+      <p><strong>Endereço:</strong><br>
+      Rua das Vinhas, 123<br>
+      Jardim Paulista - São Paulo/SP</p>
+    </aside>
   </section>
 </main>
 

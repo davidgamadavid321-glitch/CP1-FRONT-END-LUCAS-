@@ -32,53 +32,150 @@
 </header>
 
 <main class="container">
-  <section>
-    <h1>Nossas Categorias</h1>
-    <p>Selecionamos rótulos para diferentes paladares e momentos. Abaixo, exemplos de categorias e possíveis harmonizações.</p>
-    <img src="../assets/imgs/vinhos.png" alt="Vinhos em exposição" class="full">
+  <section class="hero">
+    <img src="../assets/imgs/vinhos.png" alt="Nossa seleção de vinhos" class="hero-img full" width="500">
+    <div class="hero-text">
+      <h1>Nossa Seleção de Vinhos</h1>
+      <p>Explore nossa curadoria especializada de rótulos nacionais e internacionais, selecionados para diferentes paladares, ocasiões e momentos especiais.</p>
+    </div>
   </section>
 
-  <section>
-    <h2>Harmonizações (exemplos)</h2>
-    <ol>
-      <li>Almoço de família com pratos suaves</li>
-      <li>Jantar com visitas — carnes ou risotos</li>
-      <li>Brindes e celebrações</li>
-    </ol>
+  <section class="features grid">
+    <article class="card">
+      <h2>Vinhos Tintos</h2>
+      <p>Secos e encorpados para momentos especiais. Perfeitos para carnes, massas robustas e queijos amarelos.</p>
+      <a href="#tintos" class="link">Explorar Tintos</a>
+    </article>
+    <article class="card">
+      <h2>Vinhos Brancos</h2>
+      <p>Leves e refrescantes para dias quentes. Ideais para frutos do mar, saladas e pratos leves.</p>
+      <a href="#brancos" class="link">Explorar Brancos</a>
+    </article>
+    <article class="card">
+      <h2>Espumantes</h2>
+      <p>Brut e demi-sec para celebrações. Companheiros perfeitos para entradas, sobremesas e brindes.</p>
+      <a href="#espumantes" class="link">Explorar Espumantes</a>
+    </article>
   </section>
 
-  <section>
-    <h2>Tabela de Categorias</h2>
+  <section id="tintos">
+    <h2>Vinhos Tintos</h2>
     <table class="tabela">
       <thead>
         <tr>
-          <th>Categoria</th>
-          <th>Perfil</th>
-          <th>Ocasiões</th>
+          <th>Produto</th>
+          <th>Origem</th>
+          <th>Uva</th>
+          <th>Harmonização</th>
+          <th>Preço</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Vinhos Tintos</td>
-          <td>Secos / semissecos</td>
-          <td>Jantares, carnes, massas encorpadas</td>
+          <td>Château Margaux</td>
+          <td>Bordeaux, França</td>
+          <td>Cabernet Sauvignon</td>
+          <td>Carnes vermelhas grelhadas</td>
+          <td>R$ 450,00</td>
         </tr>
         <tr>
-          <td>Vinhos Brancos</td>
-          <td>Secos / doces</td>
-          <td>Pratos leves, saladas, frutos do mar</td>
+          <td>Quinta do Vallado</td>
+          <td>Douro, Portugal</td>
+          <td>Touriga Nacional</td>
+          <td>Queijos curados e massas</td>
+          <td>R$ 185,00</td>
         </tr>
         <tr>
-          <td>Espumantes</td>
-          <td>Brut / demi-sec</td>
-          <td>Brindes, entradas, celebrações</td>
+          <td>Salton Talento</td>
+          <td>Serra Gaúcha, Brasil</td>
+          <td>Merlot</td>
+          <td>Carnes brancas e pizzas</td>
+          <td>R$ 89,00</td>
         </tr>
       </tbody>
     </table>
   </section>
 
-  <section>
-    <p>Nota: Existem milhares de variedades de uvas, com características que variam conforme região, clima, solo e técnicas de produção — por isso a curadoria e orientação são fundamentais.</p>
+  <section id="brancos">
+    <h2>Vinhos Brancos</h2>
+    <table class="tabela">
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Origem</th>
+          <th>Uva</th>
+          <th>Harmonização</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cloudy Bay</td>
+          <td>Marlborough, NZ</td>
+          <td>Sauvignon Blanc</td>
+          <td>Frutos do mar e saladas</td>
+          <td>R$ 320,00</td>
+        </tr>
+        <tr>
+          <td>Bouchard Père</td>
+          <td>Burgundy, França</td>
+          <td>Chardonnay</td>
+          <td>Peixes e aves</td>
+          <td>R$ 280,00</td>
+        </tr>
+        <tr>
+          <td>Miolo Reserva</td>
+          <td>Vale do São Francisco, BR</td>
+          <td>Chenin Blanc</td>
+          <td>Comida japonesa e aperitivos</td>
+          <td>R$ 65,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="espumantes">
+    <h2>Espumantes</h2>
+    <table class="tabela">
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Origem</th>
+          <th>Tipo</th>
+          <th>Harmonização</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dom Pérignon</td>
+          <td>Champagne, França</td>
+          <td>Brut</td>
+          <td>Celebrações e ostras</td>
+          <td>R$ 1.200,00</td>
+        </tr>
+        <tr>
+          <td>Veuve Clicquot</td>
+          <td>Champagne, França</td>
+          <td>Yellow Label</td>
+          <td>Entradas e frutas</td>
+          <td>R$ 450,00</td>
+        </tr>
+        <tr>
+          <td>Cave Geisse</td>
+          <td>Serra Gaúcha, BR</td>
+          <td>Brut Nature</td>
+          <td>Sobremesas e brindes</td>
+          <td>R$ 120,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="cta">
+    <h2>Precisa de ajuda para escolher?</h2>
+    <p>Nossos especialistas estão prontos para recomendar o vinho perfeito para sua ocasião.</p>
+    <a class="btn" href="contato.html">Consultar Especialista</a>
   </section>
 </main>
 
