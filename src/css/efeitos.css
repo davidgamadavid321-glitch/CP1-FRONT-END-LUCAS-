@@ -23,3 +23,7 @@ input:focus, textarea:focus {
     transform: scale(1.1);
 } 
 
+/* 5. Active no botão enviar */
+#enviar:active {
+    transform: scale(0.95);
+}
