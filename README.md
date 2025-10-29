@@ -101,7 +101,7 @@ O projeto é totalmente responsivo e se adapta a:
 
 ## 🌐 Deploy
 
-**GitHub Pages:** [Link para o site publicado](#) *(adicione o link quando disponível)*
+**GitHub Pages:** [https://davidgamadavid321-glitch.github.io/CP2-FRONT-END-LUCAS-/](#)
 
 ## 📊 Requisitos Atendidos
 
